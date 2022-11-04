@@ -1,0 +1,176 @@
+body {
+ margin: 0 auto;
+ background: #4a525a;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ width: 800px;
+ text-align: left;
+ font-size: 11px;
+ color: #ddd;
+}
+
+#banner {
+ width: 300px;
+ height: auto;
+ border: 0px dotted #606870;
+ padding: 0;
+ margin: 59px 12px 69px 41px;
+ background-color: transparent;
+ text-align: left;
+ line-height: 0;
+ position: relative;
+ left: 160px;
+ top: 20px;
+}
+
+.gay .header {
+ border-bottom: 1px solid #64686c;
+ padding-bottom: 0px;
+ display: inline-block;
+ margin-left: -15px;
+}
+
+.subheader {
+ margin-left: -10px;
+}
+
+blockquote {
+ margin: 0 3em 0 0;
+ padding: 0 0.75em 0 1em;
+ border-left: 1px solid #777;
+ width: 360px;
+ line-height: 18px;
+ position: relative;
+ left: -10px;
+}
+
+.blockquote p {
+ margin: 0 0 1em 0;
+}
+
+.date {
+ text-transform: uppercase;
+ margin: 5em 0 2em 0;
+ font-family: "Gill Sans", "Gill Sans Std", "Gill Sans MT", Georgia, serif;
+ font-size: 1em;
+ color: #aaa;
+ line-height: 1.8em;
+ letter-spacing: .2em;
+ margin-left: -20px;
+ font-weight: normal;
+ padding: 0;
+}
+
+aside {
+ float: left;
+ width: 300px;
+ color: #eee;
+ text-align: right;
+}
+
+article {
+ float: right;
+ width: 400px;
+}
+
+ul {
+ list-style: none;
+}
+
+ul li a {
+ text-transform: uppercase;
+ text-align: right;
+ color: inherit;
+ display: inline-block;
+ text-decoration: none;
+ margin-bottom: 5px;
+}
+
+.name {
+ margin-bottom: 50px;
+ display: inline-block;
+ text-transform: uppercase;
+}
+
+.ad {
+ display: inline-block;
+ margin-top: 150px;
+ font-size: 0.5em;
+ text-align: right;
+
+
+}
+
+q::before,
+q::after {
+ content: "'";
+}
+
+li a:hover,
+.header:hover {
+ background-color: #606870;
+ cursor: pointer;
+}
+
+li a {
+ padding: 1.5px 1px;
+}
+
+img {
+ width: 240px;
+}
+
+.gay a:hover {
+ background-color: #606870;
+ text-decoration: none;
+ color: white;
+}
+
+.gay a {
+ color: #606870;
+ text-decoration: none;
+ border: none;
+ padding: 3px;
+}
+
+.gay a:first-child {
+ border-bottom: 1px solid #606870;
+
+}
+
+a.header:hover,
+a.star:hover {
+ color: white;
+ background-color: #606870;
+}
+
+a.header {
+ color: #ccc;
+}
+
+.first {
+ position: relative;
+ top: 8px;
+}
+
+.second-paragraph {
+ padding-top: 20px;
+
+}
+
+.second-paragraph:last-of-type {
+ margin-left: 20px;
+}
+
+.group::before,
+.group::after {
+ content: " ";
+ display: table;
+}
+
+.group::after {
+ clear: both;
+}
+
+.group {
+ *zoom: 1;
+}
