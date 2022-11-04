@@ -1,0 +1,179 @@
+@font-face {
+ font-family: "proxima-nova";
+ src: url(Proxima_Nova_Font.otf);
+}
+
+@font-face {
+ font-family: "freight-big-pro";
+ src: url(Freight-BigLight.ttf);
+}
+
+
+body {
+ color: #333;
+ background: #f6ede8;
+ margin-left: 50px;
+ margin-top: 40px;
+ font-family: "freight-big-pro";
+}
+
+header img {
+ margin-bottom: 40px;
+}
+
+.halloween {
+ font-size: 20px;
+ padding-bottom: 10px;
+ border-bottom: 1px solid #333;
+
+}
+
+.halloween h1,
+.book h1 {
+ font-size: 45px;
+ text-transform: capitalize;
+}
+
+.halloween p,
+.book p {
+ font-size: 25px;
+ line-height: 31px;
+}
+
+aside {
+ float: right;
+ width: 400px;
+ position: relative;
+ left: -300px;
+ top: -20px;
+}
+
+#wrapper {
+ float: left;
+ width: 700px;
+ margin-left: 100px;
+}
+
+.uppercase,
+p.uppercase {
+ text-transform: uppercase;
+ text-decoration: none;
+ display: block;
+ margin-top: 30px;
+ margin-bottom: 45px;
+ color: black;
+ font-size: 11px;
+ letter-spacing: 2px;
+ font-family: "proxima-nova", sans-serif;
+
+}
+
+.greaterthan {
+ margin-left: 15px;
+ display: inline-block;
+}
+
+.uppercase:hover {
+ text-decoration: underline;
+}
+
+.book {
+ padding-top: 50px;
+}
+
+aside header .uppercase {
+ border-top: 1px solid #333;
+ margin-top: 10px;
+ padding-top: 25px;
+ position: relative;
+ top: 11px;
+
+}
+
+aside header .uppercase:hover {
+ border-top: 1px solid #333;
+ margin-top: 10px;
+ padding-top: 25px;
+ position: relative;
+ top: 11px;
+ text-decoration: none;
+}
+
+.ashley {
+ font-size: 45px;
+ margin-bottom: 30px;
+ font-weight: normal;
+}
+
+aside header {
+ border-bottom: 1px solid #333;
+}
+
+.ring {
+ margin-top: 30px;
+ border-bottom: 1px solid #333;
+}
+
+.description {
+ font-size: 15px;
+ line-height: 21px;
+ letter-spacing: 1px;
+ margin-bottom: 30px;
+}
+
+.form-group {
+ display: inline-block;
+ width: 220px;
+ margin: 0;
+ border-bottom: 1px solid #333;
+ line-height: 31px;
+}
+
+.email-signup {
+ padding: 0;
+}
+
+.form-clear {
+ display: block;
+ width: 100%;
+ height: 34px;
+ padding: 6px 6px 6px 0px;
+ font-size: 14px;
+ line-height: 1.42857;
+ color: #000;
+ border-radius: 4px;
+ border: none;
+ background-color: transparent;
+}
+
+.form-clear:focus {
+ outline-width: 0;
+}
+
+.btn {
+ border: none;
+ display: inline-block;
+ margin-bottom: 0;
+ font-weight: normal;
+ text-align: center;
+ vertical-align: middle;
+ cursor: pointer;
+ padding: 6px 12px;
+ font-size: 15px;
+ border-radius: 4px;
+ background-color: transparent;
+}
+
+.group::before,
+.group::after {
+ content: " ";
+ display: table;
+}
+
+.group::after {
+ clear: both;
+}
+
+.group {
+ *zoom: 1;
+}
